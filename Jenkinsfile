@@ -12,6 +12,7 @@ pipeline {
         stage('test') {
             steps {
                 echo "running static test on code"
+                echo "checking the webhook"
                              
                 
             }
